@@ -110,3 +110,27 @@ def add_cyclic_point(data, coord=None, axis=-1):
     else:
         return_value = new_data, new_coord
     return return_value
+
+def distance_between(start, end):
+    '''
+    Calculate a great circle distance between two co-ordinates, assuming a
+    spherical earth.
+    
+    Args:
+    
+    * start:
+        A tuple of form (lon, lat) containing one co-ordinate of the geodesic.
+        The order of the two co-ordinates is irrelevant.
+    
+    * end:
+        A tuple of form (lon, lat) containing one co-ordinate of the geodesic.
+        The order of the two co-ordinates is irrelevant.
+    
+    Returns:
+    
+    * si_distance:
+        The distance between the two co-ordinates in kilometres.
+    '''
+    si_distance = None
+    return si_distance
+
